@@ -1,3 +1,21 @@
 
+changelog
+
+  * forked from nginx/nginx
+  * add module tengine/concat
+  * modify server-token
+  
+install
+  
+  * sh install.sh
+  * install.sh = ./configure --with=concat + make + sudo make install
+  * nginx home directory = /usr/local/nginx
+  * /usr/local/nginx/sbin/nginx
+  * /usr/local/nginx/sbin/nginx -s reload
+
 Documentation is available at http://nginx.org
+
+rebuild by seavers
+
+
 
